@@ -1,0 +1,45 @@
+
+
+
+name: three_page_app
+description: "A simple three-page Flutter app"
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  url_launcher: ^6.0.9
+  cupertino_icons: ^1.0.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/lang/
+    - assets/icon.png
+
+
+#  ALT + F12
+
+#- flutter pub get
+
+#- flutter pub run flutter_launcher_icons
+ 
